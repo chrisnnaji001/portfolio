@@ -1,0 +1,268 @@
+/* Reset some default browser styles */
+body, h1, h2, h3, p, form, input, button {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+header {
+    background-color: #1f2937; /* Slightly lighter background for header */
+    padding:  1rem;
+    text-align: center;
+    text-align: right;
+    display: flex;
+    justify-content: space-between flex-end;
+    margin-left: 200px; 
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #111827; /* Dark background color */
+    color: #fff; /* Light text color */
+}
+
+#name {
+    color: white !important;
+    display: flex;
+}
+
+#my-photo {
+    display: flex;
+    height: 400px;
+    width: 700px;
+} 
+ 
+
+
+
+.container {
+    width: 90%;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+/* Header Section */
+main {
+    background-color: #1f2937; /* Slightly lighter background for header */
+    padding: 50px 0;
+    text-align: center;
+
+}
+
+main h1 {
+    font-size: 2em;
+    margin-bottom: 1,2;
+}
+
+main p {
+    font-size: 50px;
+}
+
+/* Services Section */
+.services {
+    background-color: #111827; /* Matches the overall page background */
+    padding: 50px 0;
+    text-align: center;
+}
+
+.services h2 {
+    font-size: 1.8em;
+    margin-bottom: 20px;
+}
+
+.service-box {
+    display: inline-block;
+    width: 30%;
+    margin: 10px;
+    background-color: #1f2937; /* Slightly different color for boxes */
+    padding: 20px;
+    border-radius: 5px;
+}
+
+/* About Me Section */
+.about-me {
+    background-color: #1f2937;
+    padding: 50px 0;
+    text-align: center;
+}
+
+/* Contact Section */
+.contact {
+    background-color: #111827;
+    padding: 50px 0;
+    text-align: center;
+}
+
+.contact form {
+    display: inline-block;
+    text-align: left;
+    background-color: #1f2937;
+    padding: 20px;
+    border-radius: 5px;
+}
+
+.contact input, .contact textarea {
+    width: 100%;
+    margin-bottom: 10px;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+}
+
+.contact button {
+    width: 100%;
+    padding: 10px;
+    border: none;
+    background-color: #6366f1; /* Button color */
+    color: #fff;
+    font-size: 1em;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+/* Footer Section */
+footer {
+    background-color: #1f2937;
+    padding: 20px 0;
+    text-align: center;
+}/* Reset some default browser styles */
+body, h1, h2, h3, p, form, input, button {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #111827; /* Dark background color */
+    color: #fff; /* Light text color */
+}
+
+.container {
+    width: 90%;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+/* main Section */
+main {
+    background-color: #1f2937; /* Slightly lighter background for header */
+    padding: 50px 0;
+    text-align: center;
+}
+
+main h1 {
+    font-size: 2em;
+}
+
+main p {
+    font-size: 1.2em;
+}
+
+/* Services Section */
+.services {
+    background-color: #111827; /* Matches the overall page background */
+    padding: 50px 0;
+    text-align: center;
+}
+
+
+/* About Me Section */
+.about-me {
+    background-color: #1f2937;
+    padding: 50px 0;
+    text-align: center;
+}
+
+/* Contact Section */
+.contact {
+    background-color: #111827;
+    padding: 50px 0;
+    text-align: center;
+}
+
+.contact form {
+    display: inline-block;
+    text-align: left;
+    background-color: #1f2937;
+    padding: 20px;
+    border-radius: 5px;
+}
+
+.contact input, .contact textarea {
+    width: 100%;
+    margin-bottom: 10px;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+}
+
+.contact button {
+    width: 100%;
+    padding: 10px;
+    border: none;
+    background-color: #6366f1; /* Button color */
+    color: #fff;
+    font-size: 1em;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+/* Footer Section */
+footer {
+    background-color: #1f2937;
+    padding: 20px 0;
+    text-align: center;
+}
+
+#headerBrand {
+    padding-left: 20px;
+}
+
+#contact-info {
+    display: flex;
+    /* border: 2px solid white; */
+    justify-content: space-between;
+    padding: 10px;
+
+}
+
+.navList{
+    display: inline-block;
+    padding-right: 20px;
+}
+
+.navList a {
+    text-decoration: none;
+    color: white;
+}
+
+.container {
+    width: 90%;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.flex-content {
+    display: flex;
+}
+
+.social-icon {
+    margin: 20px;
+    padding: 10px;
+    border: 1px solid white;
+    border-radius: 100%;
+    font-size: 20px;
+    color: white;
+    
+}
+
+.upcoming {
+    width: 900px;
+    margin-top: 20px;
+}
+
+#services {
+    text-align: center;
+    margin-top: 50px ;
+}
